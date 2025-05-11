@@ -1,0 +1,125 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 20px 100px 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Header */
+.caixa-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* Conteúdo Principal */
+.caixa-conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+    /* line-height: 1.1; */
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+button {
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #065031;
+    transform: scale(1.05);
+}
+
+/* Seção de Imagem */
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copo {
+    margin-top: 250px;
+    width: 340px;
+    transition: transform 0.3s, opacity 0.5s;
+    
+}
+
+.copo:hover {
+    transform: translateY(-10px);
+}
+
+/* Menu Inferior */
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.4s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-15px);
+}
+
+/* Elemento Decorativo */
+.circulo {
+    background-color: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    transition: background-color 0.5s ease;
+    z-index: -1;
+}

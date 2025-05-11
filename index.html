@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> <!-- CONFIGURAÇÕES DO SITE -->
+  <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href=imagens/logo.png>
+  <!-- COMPATÍVEL COM CELULARES E COMPUTADORES-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Starbucks</title>
+</head>
+
+<body>
+  <div class="circulo"></div>
+
+  <img src="imagens/logo.png" class='logo'>
+
+  <div class="caixa-conteudo">
+
+    <div class="caixa-texto">
+      <h2>It's not just Coffee it's <span>Starbucks</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolor iure quam eum quisquam culpa
+        necessitatibus vitae, non repellat, laboriosam esse minus. Repudiandae est, quibusdam nihil quae voluptates
+        dolorum. Laboriosam!</p>
+      <button>clique aqui</button>
+    </div>
+
+    <div class="caixa-imagem">
+      <img class="copo" src="imagens/img1.png">
+    </div>
+  </div>
+
+  <div class="caixa-menu">
+    <img class="botao-menu" onclick="trocarCor('#017143'); trocarImagem('imagens/img1.png')" src="imagens/thumb1.png">
+    <img class="botao-menu" onclick="trocarCor('#eb7495'); trocarImagem('imagens/img2.png')" src="imagens/thumb2.png">
+    <img class="botao-menu" onclick="trocarCor('#d752b1'); trocarImagem('imagens/img3.png')" src="imagens/thumb3.png">
+  </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
