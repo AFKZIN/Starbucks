@@ -8,7 +8,7 @@ Navegação intuitiva e convites à ação claros
 
 Estética alinhada à marca (verde #017143 como cor primária)
 
-![Preview](StarBucks/imagens/starbucks.png) 
+![Preview](imagens/starbucks.png) 
 
 ## :wrench: Tecnologias Utilizadas
 <div style="display: flex; gap: 10px;">
